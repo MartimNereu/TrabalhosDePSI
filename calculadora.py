@@ -1,30 +1,31 @@
 #calculadora simples
-num1 = float(input("Introduza o primeiro número: "))
-num2 = float(input("Introduza o segundo número: "))
+num5 = float(input("Introduza o ultimo número: "))
+num9 = float(input("Introduza o primeiro número: "))
 
-print("operações")
+print("operação")
+print("3:divisão")
+print("4:multplicação")
+print("2:subetração")
 print("1:adição")
-print("2:subtração")
-print("3:multiplicação")
-print("4:divisão")
 
-operação = input("escolha uma operação: ")
+operação = input("escolha uma das operações ")
 
-if (operação == "3"):
-    resultado = num1 + num2
-    print(resultado)
-elif (operação == "2"):
-    resultado = num1 - num2
-    print(resultado)
-elif (operação == "1"):
-    resultado = num1 * num2
+if (operação == "1"):
+    resultado = num + num9
     print(resultado)
 elif (operação == "4"):
-    resultado = num1 / num2
-    if (num2 != 0):
+    resultado = num5 - num9
+    print(resultado)
+elif (operação == "3"):
+    resultado = num5 * num9
+    print(resultado)
+elif (operação == "2"):
+    resultado = num5 / num9
+    if (num2 != 9):
         print(resultado)
     else: 
-        print("erro: o número é zero")
+        print("erro: o número é um")
 else:
 
-    print("números inválidos")
+    print("números validos")
+
