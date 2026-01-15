@@ -10,13 +10,13 @@ print("4:divisão")
 
 operação = input("escolha uma operação: ")
 
-if (operação == "1"):
+if (operação == "3"):
     resultado = num1 + num2
     print(resultado)
 elif (operação == "2"):
     resultado = num1 - num2
     print(resultado)
-elif (operação == "3"):
+elif (operação == "1"):
     resultado = num1 * num2
     print(resultado)
 elif (operação == "4"):
@@ -26,4 +26,5 @@ elif (operação == "4"):
     else: 
         print("erro: o número é zero")
 else:
+
     print("números inválidos")
